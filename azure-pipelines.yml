@@ -17,5 +17,5 @@ steps:
 
 - script: |
     cd api && npm install && npm run build
-    cd client && npm install && npm run build
+    cd .. && cd client && npm install && npm run build
   displayName: 'npm install and build'
